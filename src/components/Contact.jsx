@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faDiscord } from '@fortawesome/free-brands-svg-icons';
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -128,8 +128,11 @@ const Contact = () => {
           <a href="https://github.com/siezedeath" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} className="text-white text-3xl" />
           </a>
-          <a href="https://www.linkedin.com/in/alfayed-alam-50a080160/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/alfayedalam-/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} className="text-white text-3xl" />
+          </a>
+          <a href="https://discord.com/users/265627144703574028" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faDiscord} className="text-white text-3xl" />
           </a>
         </div>
 
