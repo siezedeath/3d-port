@@ -25,6 +25,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import hrt from "./company/hrt.png";
+import synergyprep from "./company/synergyprep.png";
+import headstarter from "./company/headstarter.jpeg";
+import maa from "./company/maa.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +63,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  hrt,
+  synergyprep,
+  headstarter,
+  maa,
 };
+
