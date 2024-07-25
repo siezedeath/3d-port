@@ -126,8 +126,8 @@ import {
       iconBg: "#383E56",
       date: "July 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Working on several different projects that will help me develop skills with respect to AI and Web Development.",
+        "Collaborating with peers to learn as a developer working in a team setting.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],

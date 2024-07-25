@@ -38,17 +38,29 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} className="text-center">
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>a little about me 😃</h2>
       </motion.div>
 
       <motion.p 
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] mx-auto text-center"
       > 
         I am a software engineer and quantitative researcher with a passion for creating innovative solutions to complex problems. I have a strong background in computer science and software development, with experience in a wide range of technologies and programming languages. I am always looking for new challenges and opportunities to learn and grow as a developer.
       </motion.p>
+
+      <div className="flex justify-center mt-8">
+        <motion.a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          variants={fadeIn("", "", 0.2, 1)}
+          className="bg-gray-700 text-white font-bold py-2 px-4 rounded-lg hover:bg-gray-800 transition-all duration-300"
+        >
+          View My Resume
+        </motion.a>
+      </div>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
