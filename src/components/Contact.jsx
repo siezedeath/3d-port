@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -87,7 +89,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
             </label>
@@ -98,7 +100,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What's your email?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>   
@@ -109,7 +111,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='Leave a message!'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -121,6 +123,17 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>       
         </form>
+
+        <div className="flex gap-4 mt-8">
+          <a href="https://github.com/siezedeath" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faGithub} className="text-white text-3xl" />
+          </a>
+          <a href="https://www.linkedin.com/in/alfayed-alam-50a080160/" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faLinkedin} className="text-white text-3xl" />
+          </a>
+        </div>
+
+
       </motion.div>
 
       <motion.div
