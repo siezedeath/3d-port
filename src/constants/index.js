@@ -15,13 +15,7 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
-    jobit,
-    tripguide,
     threejs,
     hrt,
     synergyprep,
@@ -172,9 +166,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "TBA",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus ut nunc.",
       tags: [
         {
           name: "react",
@@ -193,45 +187,45 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "TBA",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus ut nunc.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: carrent,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "TBA",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus ut nunc.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: carrent,
       source_code_link: "https://github.com/",
     },
   ];
