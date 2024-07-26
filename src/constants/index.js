@@ -8,15 +8,22 @@ import {
     html,
     css,
     reactjs,
-    redux,
-    tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
     docker,
     carrent,
     threejs,
+    c,
+    java,
+    latex,
+    numpy,
+    pandas,
+    postgresql,
+    python,
+    pytorch,
+    scikit,
+    scipy,
+    tensorflow,
     hrt,
     synergyprep,
     headstarter,
@@ -79,20 +86,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Node JS",
       icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -103,14 +98,15 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
+    {
+      name: "Python",
+      icon: python, 
+    },
   ];
+  
   
   const experiences = [
     {
