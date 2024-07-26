@@ -150,10 +150,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Jun 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Participating in hackathons to further develop my skills as a developer.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Automated the process of creating math questions for students as well as giving them full solutions.",
+        "Designed code to assign students problems based on their skill level and track their progress.",
+        "Led development of a novel curriculum for students studying for SAT and SHSAT.",
+        "Teach competitive math for those who are gifted and/or interested in the subject.",
       ],
     },
     {
