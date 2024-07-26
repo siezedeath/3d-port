@@ -50,7 +50,7 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} className="text-center">
         <p className={styles.sectionSubText}>What I've Done So Far</p>
         <h2 className={styles.sectionHeadText}>Experience</h2>
       </motion.div>

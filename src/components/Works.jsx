@@ -63,7 +63,7 @@ const ProjectCard = ({ index, name , description, tags, image, source_code_link 
 const Works = () => {
   return (
     <>
-    <motion.div variants={textVariant()}>
+    <motion.div variants={textVariant()} className="text-center">
       <p className={styles.sectionSubText}>My Projects</p>
       <h2 className={styles.sectionHeadText}>Projects.</h2>
     </motion.div>
@@ -71,7 +71,7 @@ const Works = () => {
     <div className="w-full flex">
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
+        className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] mx-auto text-center">
           The following projects will show case some of my skills and experiences as well as the repositories to them via Github.  It will reflect my capabilites, my ability to solve problems, and how well I can work with different technologies.
       </motion.p>
     </div>
