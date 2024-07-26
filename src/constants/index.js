@@ -126,7 +126,7 @@ import {
       company_name: "Hudson River Trading",
       icon: hrt,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "May 2023 - Aug 2023",
       points: [
         "Collaboratively designed sophisticated mathematical models for trading financial derivatives",
         "Developed advanced machine learning algorithms with a focus on Q-learning to optimize trading strategies.",
@@ -138,7 +138,7 @@ import {
       company_name: "Synergy Prep",
       icon: synergyprep,
       iconBg: "#E6DEDD",
-      date: "Jun 2023 - Present",
+      date: "Jun 2022 - Present",
       points: [
         "Automated the process of creating math questions for students as well as giving them full solutions.",
         "Designed code to assign students problems based on their skill level and track their progress.",
