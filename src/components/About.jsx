@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] mx-auto text-center"
       > 
-        I am a software engineer and quantitative researcher with a passion for creating innovative solutions to complex problems. I have a strong background in computer science and software development, with experience in a wide range of technologies and programming languages. I am always looking for new challenges and opportunities to learn and grow as a developer.
+        I am a software engineer and quantitative researcher with a passion for creating innovative solutions to complex problems. I have a strong background in computer science and software development, with experience in a wide range of technologies and programming languages. I am always looking for new challenges and opportunities to learn and grow as a developer. I also love hanging out with friends, rock climbing, and leetcoding or doing competitive math problems in my free time!
       </motion.p>
 
       <div className="flex justify-center mt-8">
