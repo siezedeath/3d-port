@@ -1,9 +1,17 @@
+import React from 'react';
 import { motion } from 'framer-motion';
+import { Typewriter } from 'react-simple-typewriter';
 
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
+  const words = [
+    'I like to develop AI/ML models.',
+    'I like making simulations with AI.',
+    'I like developing web applications.',
+    'I like analyzing data sets.'
+  ];
   return (
     <section className="relative w-full h-screen mx-auto">
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
@@ -17,7 +25,15 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Alfayed</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop AI/ML models and <br className="sm:block hidden"/> simulations as well as web applications.
+            <Typewriter
+              words={words}
+              loop={Infinity}
+              cursor
+              cursorStyle="_"
+              typeSpeed={50}
+              deleteSpeed={100}
+              delaySpeed={600}
+            />
           </p>
         </div>
       </div>
@@ -49,3 +65,4 @@ const Hero = () => {
 }
 
 export default Hero;
+
