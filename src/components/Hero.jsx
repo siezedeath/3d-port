@@ -21,7 +21,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#dd8871]">Alfayed</span>
           </h1>
-          <p className="text-white text-[16px] mt-1">(you can call me <span className="text-[#dd8871]">Alfie</span>)</p>
+          <p className="text-white text-[16px] mt-1">(you can call me <span className="text-[#dd8871]">Alfy</span>)</p>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             <Typewriter
               words={words}
@@ -29,7 +29,7 @@ const Hero = () => {
               cursor
               cursorStyle="_"
               typeSpeed={50}
-              deleteSpeed={100}
+              deleteSpeed={50}
               delaySpeed={600}
             />
           </p>

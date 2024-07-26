@@ -50,7 +50,7 @@ import {
       icon: web,
     },
     {
-      title: "Machine Learning Engineer",
+      title: "AI/ML Engineer",
       icon: mobile,
     },
     {
@@ -58,7 +58,7 @@ import {
       icon: backend,
     },
     {
-      title: "Math Tutor",
+      title: "Math and Science Tutor",
       icon: creator,
     },
   ];
