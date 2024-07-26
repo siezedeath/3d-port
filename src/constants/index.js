@@ -128,20 +128,6 @@ import {
       points: [
         "Working on several different projects that will help me develop skills with respect to AI and Web Development.",
         "Collaborating with peers to learn as a developer working in a team setting.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: synergyprep,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
@@ -152,9 +138,21 @@ import {
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
+        "Collaboratively designed sophisticated mathematical models for trading financial derivatives",
+        "Developed advanced machine learning algorithms with a focus on Q-learning to optimize trading strategies.",
+        "Partnered with peers to analyze and revise existing quantitative models.",
+      ],
+    },
+    {
+      title: "Software Developer and Tutor",
+      company_name: "Synergy Prep",
+      icon: synergyprep,
+      iconBg: "#E6DEDD",
+      date: "Jun 2023 - Present",
+      points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in hackathons to further develop my skills as a developer.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
@@ -165,10 +163,9 @@ import {
       iconBg: "#E6DEDD",
       date: "January 2020 - June 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Achieved a score of 126 on the AMC 12A 2020, earning a place on the distinguished honor roll.",
+        "Scored 130 on the AIME II 2020, correctly answering 13 out of 15 questions.",
+        "Qualified for the USAMO in 2020 with a combined index score of 256."
       ],
     },
   ];
